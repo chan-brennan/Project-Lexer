@@ -57,15 +57,17 @@ Token Types:
 - HASH – #
 - END_OF_FILE, ERROR
 
-## 📦 Project 3 – Code Interpreter
+## 📦 Project 3 – Intermediate Code Generator & Interpreter
 
 **Description:**  
-Generates intermediate instructions from parsed input and simulates execution using a virtual machine. Supports arithmetic, assignment, loops, conditionals, and I/O.
+Implements a compiler for a simple C-like language that parses input code, builds a linked list-based intermediate representation (IR), and simulates execution using a provided interpreter.
 
 **Key Features:**
-- Instruction list generation (InstructionNode)
-- Parsing with a lexer-driven grammar
-- Execution of intermediate instructions via execute_program()
+- Parses constructs like `assign`, `if`, `while`, `switch`, `for`, `input`, and `output`
+- Builds an IR graph using `InstructionNode` structures
+- Supports jump logic with conditional and unconditional branches (`CJMP`, `JMP`)
+- Uses a memory model and variable-location mapping (`mem[]` and location table)
+- Execution is performed by traversing and interpreting the generated instruction graph
 
 **Run Instructions:**
 ```bash
@@ -77,6 +79,20 @@ Keywords: TYPE, VAR, REAL, INT, ...
 Operators: +, -, /, *, =, <>, ...
 Delimiters: ,, :, {, }, ...
 Special: ERROR, END_OF_FILE
+
+**Execution Model:**
+- Variables declared in the var section are assigned memory locations using a location table
+- Input values are consumed sequentially from the inputs section
+- The compiler builds a linked list of instructions representing the input program
+- The interpreter walks through this instruction list, simulating control flow and memory updates
+
+**Supported Statements:**
+- `assign` – assignment of variables or expressions  
+- `input` / `output` – read input values or print variable contents  
+- `if` – conditional execution using `CJMP` and `NOOP`  
+- `while` – loops implemented with `CJMP`, `JMP`, and `NOOP`  
+- `for` – translated into `assign`, `CJMP`, `JMP` sequences like C-style for-loops  
+- `switch` – implemented via a sequence of `CJMP` and conditional blocks  
 
 ## 🗂 Project Directory Structure
 ```
