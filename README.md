@@ -57,10 +57,10 @@ Token Types:
 - HASH – #
 - END_OF_FILE, ERROR
 
-## 📦 Project 3 – Code Generator & Interpreter
+## 📦 Project 3 – Code Interpreter
 
 **Description:**  
-Generates intermediate code from parsed input and simulates execution using a virtual machine. Supports arithmetic, assignment, loops, conditionals, and I/O.
+Generates intermediate instructions from parsed input and simulates execution using a virtual machine. Supports arithmetic, assignment, loops, conditionals, and I/O.
 
 **Key Features:**
 - Instruction list generation (InstructionNode)
@@ -84,7 +84,7 @@ Project/
 ├── inputbuf.cc/.h         # Character input buffering
 ├── lexer.cc/.h            # Lexical analyzer
 ├── project2.cc            # Grammar analyzer logic
-├── compiler.cc/.h         # Intermediate code generator and VM
+├── compiler.cc/.h         # Intermediate instruction generator and VM
 ├── demo.cc                # Sample integration for Project 3
 ├── test_p3.sh             # Test script for Project 3
 ├── tests/                 # Sample input/output test cases
