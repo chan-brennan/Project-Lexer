@@ -78,7 +78,8 @@ Operators: +, -, /, *, =, <>, ...
 Delimiters: ,, :, {, }, ...
 Special: ERROR, END_OF_FILE
 
-🗂 Project Directory Structure
+## 🗂 Project Directory Structure
+```
 Project/
 ├── inputbuf.cc/.h         # Character input buffering
 ├── lexer.cc/.h            # Lexical analyzer
@@ -88,4 +89,4 @@ Project/
 ├── test_p3.sh             # Test script for Project 3
 ├── tests/                 # Sample input/output test cases
 └── README.md              # This file
-
+```
