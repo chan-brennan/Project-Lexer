@@ -1,4 +1,4 @@
-# CSE 340 Projects – Lexical Analysis to Code Generation
+# Project – Lexical Analysis and Code Interpretation
 
 Author: Brennan Chan  
 Initial Codebase: Rida Bazzi  
