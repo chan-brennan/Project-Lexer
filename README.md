@@ -1,0 +1,2 @@
+# Project-Lexer
+ProjectLexer is a C++ implementation of a lexical analyzer developed for a simplified programming language. It reads source code character-by-character, breaks it into tokens (such as keywords, identifiers, operators, and literals), and supports lookahead via token ungetting. This project was completed as part of coursework for CSE 340, laying the groundwork for parsing and compiler design.
