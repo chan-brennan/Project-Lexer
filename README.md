@@ -41,7 +41,7 @@ Token Types:
 Parses a context-free grammar from input and performs one of five tasks: listing grammar symbols, removing useless symbols, or computing FIRST and FOLLOW sets.
 
 **Tasks Supported:**
-*Each of these tasks has test case files associated with each of these tested tasks.*
+*Each of these tasks has test case files associated with each of these tested tasks. These can be denoted by the test file name, then "expected", then the expected test case result for that particular task.*
 - Print grammar symbols (terminals and non-terminals) - expected1
 - Eliminate useless symbols - expected2
 - Compute FIRST sets - expected3
