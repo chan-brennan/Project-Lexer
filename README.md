@@ -41,11 +41,12 @@ Token Types:
 Parses a context-free grammar from input and performs one of five tasks: listing grammar symbols, removing useless symbols, or computing FIRST and FOLLOW sets.
 
 **Tasks Supported:**
-- Print grammar symbols (terminals and non-terminals)
-- Eliminate useless symbols
-- Compute FIRST sets
-- Compute FOLLOW sets
-- Check if grammar supports predictive parsing
+- Print grammar symbols (terminals and non-terminals) - expected1
+- Eliminate useless symbols - expected2
+- Compute FIRST sets - expected3
+- Compute FOLLOW sets - expected4
+- Check if grammar supports predictive parsing - expected5
+Each of these tasks has test case files associated with each of these tested tasks.
 
 **Run Instructions:**
 ```bash
