@@ -14,7 +14,7 @@ Together, they form a series of sequential and more advanced projects that perta
 
 ---
 
-## 📦 Project 1 – Lexical Analyzer
+## 📦 Phase 1 – Lexical Analyzer
 
 **Description:**  
 Implements a lexical analyzer (lexer) in C++ that reads source code and breaks it into tokens such as identifiers, keywords, operators, numbers, and delimiters.
@@ -35,7 +35,7 @@ Token Types:
 - Delimiters: ,, :, {, }, ...
 - Special: ERROR, END_OF_FILE
 
-## 📦 Project 2 – Grammar Analyzer
+## 📦 Phase 2 – Grammar Analyzer
 
 **Description:**  
 Parses a context-free grammar from input and performs one of five tasks: listing grammar symbols, removing useless symbols, or computing FIRST and FOLLOW sets.
@@ -60,7 +60,7 @@ Token Types:
 - HASH – #
 - END_OF_FILE, ERROR
 
-## 📦 Project 3 – Intermediate Code Generator & Interpreter
+## 📦 Phase 3 – Intermediate Code Generator & Interpreter
 
 **Description:**  
 Implements a compiler for a simple C-like language that parses input code, builds a linked list-based intermediate representation (IR), and simulates execution using a provided interpreter.
