@@ -42,11 +42,11 @@ Parses a context-free grammar from input and performs one of five tasks: listing
 
 **Tasks Supported:**
 *Each of these tasks has test case files associated with each of these tested tasks. These can be denoted by the test file name, then "expected", then the expected test case result for that particular task.*
-- Print grammar symbols (terminals and non-terminals) - expected1
-- Eliminate useless symbols - expected2
-- Compute FIRST sets - expected3
-- Compute FOLLOW sets - expected4
-- Check if grammar supports predictive parsing - expected5
+- Print grammar symbols (terminals and non-terminals) - denoted with the file suffix "expected1"
+- Eliminate useless symbols - denoted with the file suffix "expected2"
+- Compute FIRST sets - denoted with the file suffix "expected3"
+- Compute FOLLOW sets - denoted with the file suffix "expected4"
+- Check if grammar supports predictive parsing - denoted with the file suffix "expected5"
 
 **Run Instructions:**
 ```bash
