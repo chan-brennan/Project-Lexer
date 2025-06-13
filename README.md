@@ -10,7 +10,7 @@ Course: CSE 340 – Principles of Programming Languages
 
 This repository contains three sequential projects completed for CSE 340, The Principles of Programming Languages.
 
-Together, they form a simplified compiler pipeline for a basic programming language, progressing through lexical analysis, grammar analysis, and intermediate code generation with interpretation.
+Together, they form a series of sequential and more advanced projects that pertain to the analysis of a basic programming language, progressing through lexical analysis, grammar analysis, and intermediate code generation with interpretation.
 
 ---
 
